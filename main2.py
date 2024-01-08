@@ -72,8 +72,17 @@ while True:
                         plt.xlabel('Price')
                         plt.ylabel('Frequency')
                         plt.show()
-
+################################################################################################################
                     elif choice == 4:
+                        print('Plotting Pie Chart...')
+                        # Example: Plotting a pie chart for 'Product' and 'Revenue'
+                        plt.pie(df['Revenue'], labels=df['Product'], autopct='%1.1f%%', startangle=90)
+                        plt.axis('equal') 
+                        plt.title('Revenue Distribution by Product')
+                        plt.show()
+
+                    elif choice == 5:
+####################################################################################################################
                         print("Exiting Data Visualization. Goodbye!")
                         break
 
