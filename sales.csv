@@ -1,0 +1,5 @@
+Product,Price,Budget,Segmentation,Category,Competitor,Size,Color,Target_Age,Region,Marketing_Channel,Units_Sold,Revenue
+ProductA,49.99,Low,Segment1,Electronics,CompetitorA,Medium,Blue,18-35,North America,Online,1000,49990
+ProductB,79.99,Medium,Segment2,Clothing,CompetitorB,Large,Red,25-45,Europe,Offline,800,63992
+ProductC,29.99,Low,Segment3,Beauty,CompetitorC,Small,Green,18-30,Asia,Online,1200,35988
+ProductD,99.99,High,Segment1,Electronics,CompetitorD,Medium,Black,30-50,South America,Offline,600,59994
