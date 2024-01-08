@@ -82,6 +82,16 @@ while True:
                         plt.show()
 
                     elif choice == 5:
+                        print('Plotting Scatter Plot')
+                       # Creating a scatter plot to visualize the relationship between two numerical variables, such as 'Price' and 'Units_Sold'
+                       plt.scatter(df['Price'], df['Units_Sold'])
+                       plt.xlabel('Price')
+                       plt.ylabel('Units Sold')
+                       plt.title('Scatter Plot: Price vs Units Sold')
+                       plt.show()
+
+
+                    elif choice == 6:
 ####################################################################################################################
                         print("Exiting Data Visualization. Goodbye!")
                         break
